@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ASP3.aspx" />
+    <Content Include="ProductConfirmSessionVariables.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="ASP3.aspx.designer.cs">
       <DependentUpon>ASP3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductConfirmSessionVariables.aspx.cs">
+      <DependentUpon>ProductConfirmSessionVariables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductConfirmSessionVariables.aspx.designer.cs">
+      <DependentUpon>ProductConfirmSessionVariables.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
